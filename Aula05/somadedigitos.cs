@@ -16,7 +16,7 @@ namespace HelloGithub
                 quadrado = quadrado / 10;
             }
 
-            Console.WriteLine("A soma dos dígitos do quadrado é: " + quadrado);
+            Console.WriteLine($"A soma dos dígitos do quadrado é: {quadrado}");
         }
     }
 }

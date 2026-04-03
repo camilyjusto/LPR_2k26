@@ -8,7 +8,7 @@ namespace HelloGithub
         {
            Console.Write("Digite as horas de treinamento por dia:");
            double horas = Convert.ToDouble(Console.ReadLine());
-           int horasn = 1000; // horas necessárias
+           int horasn = 1000; // horas necessárias 
 
            double horasporsemana = horas * 5;
            double totalsemanas = horasn / horasporsemana;

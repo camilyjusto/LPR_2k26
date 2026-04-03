@@ -14,5 +14,5 @@ int main(){
        else {
        }
    }
-   cout << "A soma dos múltiplos de 3 entre 50 e 500 é: " << Soma;
+   cout << "A soma dos múltiplos de 3 entre 50 e 500 é: " << Soma << endl;
 }

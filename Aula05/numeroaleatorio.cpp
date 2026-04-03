@@ -23,7 +23,7 @@ int main (){
             cout << "Chutou baixo!" << endl;
         }
         else {
-            cout << "Você acertou! Seu número de tentativas foi: " << contador;
+            cout << "Você acertou! Seu número de tentativas foi: " << contador << endl;
             return 0;
         }
     }while(chute != valorInteiro);

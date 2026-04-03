@@ -31,7 +31,7 @@ namespace HelloGithub
                 contador++;
             }
             int media = SA / quantidade;
-            Console.WriteLine($"A média aritmética desses números é: {media}");
+            Console.WriteLine($"A média aritmética desses números é: {media} ");
         }
     }
 }
