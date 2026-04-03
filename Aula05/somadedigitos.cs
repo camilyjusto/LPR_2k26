@@ -9,7 +9,7 @@ namespace HelloGithub
             Console.WriteLine("Digite um número:");
             int num = Convert.ToInt32(Console.ReadLine());
             int quadrado = num * num;
-            
+
             int armazena = quadrado;
             int soma = 0;
 
