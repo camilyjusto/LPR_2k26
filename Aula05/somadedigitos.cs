@@ -9,14 +9,18 @@ namespace HelloGithub
             Console.WriteLine("Digite um número:");
             int num = Convert.ToInt32(Console.ReadLine());
             int quadrado = num * num;
+            
+            int armazena = quadrado;
+            int soma = 0;
 
-            while (quadrado > 0)
+            while (armazena > 0)
             {
-                int digito = quadrado % 10;
-                quadrado = quadrado / 10;
+                int digito = armazena % 10;
+                soma += digito;
+                armazena = armazena / 10;
             }
 
-            Console.WriteLine($"A soma dos dígitos do quadrado é: {quadrado}");
+            Console.WriteLine($"A soma dos dígitos do quadrado é: {soma}");
         }
     }
 }
