@@ -2,24 +2,22 @@
 
 ---
 
-# Exercícios propostos
+# 👩🏻‍💻Exercícios propostos
 
 ## Exercício 1
 WHILE: Construa um algoritmo que calcule a média aritmética de um conjunto de números pares fornecidos pelo usuário. O usuário deve 
-fornecer primeiro a quantidade de números que serão digitados, e em seguida, os números 
-considerados na média. O usuário pode digitar números ímpares, que devem ser ignorados. 
-Por exemplo, no caso da tabela abaixo, o 5 informa que serão digitados 5 números (2 7 8 6 10),
-e para a média devem ser considerados apenas os números pares (2, 8, 6 e 10) ignorando o número 7 digitado.
+fornecer primeiro a quantidade de números que serão digitados, e em seguida, os números considerados na média. O usuário pode digitar números ímpares, que devem ser ignorados. Por exemplo, no caso da tabela abaixo, o 5 informa que serão digitados 5 números (2 7 8 6 10), e para a média devem ser considerados apenas os números pares (2, 8, 6 e 10) ignorando o número 7 digitado.
 
 ## Exercício 2
-DO WHILE: Construa um algoritmo de adivinhação 
-de números. Com as linhas abaixo, o algoritmo 
-gerará um número inteiro aleatório de 1 a 100:
+
+DO WHILE: Construa um algoritmo de adivinhação de números. Com as linhas abaixo, o algoritmo gerará um número inteiro aleatório de 1 a 100:
+
 #### C#
 ```csharp
     Random numAleatorio = new Random();
     int valorInteiro = numAleatorio.Next(1,100);
 ```
+
 #### C++
 ```cpp
     random_device numAleatorio ;
@@ -32,8 +30,7 @@ O seu trabalho é elaborar um algoritmo em que o usuário possa digitar números
 usadas para descobrir o número.
 
 ## Exercício 3
-FOR: Elabore um algoritmo que calcule a soma de todos os números ímpares 
-múltiplos de 3 que se encontrem no conjunto dos números de 50 a 500
+FOR: Elabore um algoritmo que calcule a soma de todos os números ímpares múltiplos de 3 que se encontrem no conjunto dos números de 50 a 500
 
 ## Exercício 4
 ESCOLHA A MELHOR ESTRUTURA DE REPETIÇÃO: Solicite ao usuário para inserir um número e calcule a soma dos dígitos do 
@@ -53,4 +50,6 @@ Considere 1 mês = 4,5 semanas.
 - [x] Exercício 2 : **numeroaleatorio.cpp**
 - [x] Exercício 3 : **multiplosde3.cpp**
 - [x] Exercício 4 : **somadedigitos.cs**
+      (estrutura escolhida: While)
 - [x] Exercício 5 : **treinamentojedi.cs**
+      (estrutura escolhida: Não foi necessário estrutura de repetição)
