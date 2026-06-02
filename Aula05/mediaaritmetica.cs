@@ -8,7 +8,7 @@ namespace HelloGithub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe quantos números você irá digitar;:");
+            Console.WriteLine("Informe quantos números você irá digitar:");
             int quantidade = Convert.ToInt32(Console.ReadLine());
 
             int contador = 0;
