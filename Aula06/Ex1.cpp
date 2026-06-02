@@ -84,6 +84,6 @@ int main()
         soma();
     }
     else {
-        cout << "Opção inválida." << endl;
+        cout << "Opção inválida!" << endl;
     }
 }

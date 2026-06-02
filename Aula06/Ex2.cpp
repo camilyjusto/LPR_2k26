@@ -71,12 +71,12 @@ int main()
         media();
     }
     else if (resposta == 2){
-        multiplo();
+        multiplos();
     }
     else if (resposta == 3){
         soma();
     }
     else {
-        cout << "Opção inválida." << endl;
+        cout << "Opção inválida!" << endl;
     }
 }

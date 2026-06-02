@@ -34,7 +34,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Opção inválida.");
+            Console.WriteLine("Opção inválida!");
         }
     }
 
@@ -101,7 +101,7 @@ class Program
 
     public static void calcularPontuacaoTotal()
     {
-       
+
     }
     static void Main()
     {
