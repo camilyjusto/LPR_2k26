@@ -8,11 +8,12 @@ namespace HelloGithub
     {
         static void Main(string[] args)
         {
-            nt[] numeros = new int[10];i
+            int[] numeros = new int[10];
 
+            Console.WriteLine("Digite 10 números:");
             for (int i = 0; i < numeros.Length; i++)
             {
-                Console.WriteLine("Digite o número:");
+                Console.WriteLine($"Insira o {i + 1}° número:");
                 numeros[i] = Convert.ToInt32(Console.ReadLine());
             }
             
@@ -27,8 +28,11 @@ namespace HelloGithub
                     Console.WriteLine($"Esse número aparece na posição: {n}");
                 }
             }
-
+            
+            if (ocorrencia > 0)
             Console.WriteLine($"Esse número apareceu {ocorrencia} vezes");
+            else
+            Console.WriteLine("Não foi possivel encontrar esse número.");
         }
     }
 }

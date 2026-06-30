@@ -11,12 +11,12 @@ namespace HelloGithub
             
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Digite o nome e a nota de 10 alunos:");
             for (int i = 0; i < notas.Length; i++)
             {
-                Console.WriteLine("Digite o nome do aluno:");
+                Console.WriteLine($"Digite o nome do {i + 1}° aluno:");
                 nomes[i] = Console.ReadLine();
-                Console.WriteLine("Digite a nota do aluno:");
+                Console.WriteLine($"Digite a nota do {i + 1}° aluno:");
                 notas[i] = Convert.ToInt32(Console.ReadLine());
             }
             ClassificarAluno();

@@ -7,9 +7,10 @@ int main()
     vector<int> Numeros(10);
     vector<int> Pares();
 
+    cout << "Digite 10 números:" << endl;
     for (int i = 0; i < Numeros.size(); i++)
     {
-        cout << "Digite um número:" << endl;
+        cout << "Insira o " << i + 1 << "° número:" << endl;
         cin >> Numeros[i];
     }
 
