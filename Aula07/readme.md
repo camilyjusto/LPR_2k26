@@ -118,9 +118,18 @@ Inicialmente todas as cadeiras devem estar livres. Crie um sistema com menu repe
 4 - Mostrar mapa da sala
 
 5 - Encerrar
+
+---
+
 ### ✔️ Exercícios concluidos:
 
-- [ ] Exercício 1
-- [ ] Exercício 2
-- [ ] Exercício 3
-- [ ] Exercício 4
+- [x] Exercício 1
+- [x] Exercício 2
+- [x] Exercício 3
+- [x] Exercício 4
+- [x] Exercício 5
+- [x] Exercício 6
+- [ ] Exercício 7
+- [ ] Exercício 8
+- [ ] Exercício 9
+- [ ] Exercício 10
