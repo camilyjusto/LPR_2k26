@@ -8,6 +8,7 @@ namespace HelloGithub
     {
         static string[] nomes = new string[5];
         static int[] notas = new int[5];
+        static string[] resultado = new string[5];
         static void Main(string[] args)
         {
             Console.WriteLine("Insira o nome e nota de 5 alunos pra o relatório:");
@@ -20,24 +21,41 @@ namespace HelloGithub
             }
             Console.WriteLine("-------- Relatório --------");
             Aprovacao();
+            for (int i = 0; i < notas.Length; i++)
+            {
+                Console.WriteLine($"Aluno: {nomes[i]} - Nota: {notas[i]} - Resultado: {resultado[i]}");
+            }
+            Media();
         }
 
         static void Aprovacao()
         {
-            int aprovados = 0;
-            int reprovados = 0;
+            int aprovado = 0;
+            int reprovado = 0;
             int recuperacao = 0;
 
             for (int i = 0; i < notas.Length; i++)
             {
                 if (notas[i] < 60)
-                    reprovados++;
+                {
+                    resultado[i] = "Reprovado";
+                    reprovado++;
+                }
                 else if (notas[i] >= 60 && notas[i] < 80)
+                {
+                    resultado[i] = "Recuperação";
                     recuperacao++;
+                }
                 else
-                    aprovados++;
+                {
+                    resultado[i] = "Aprovado";
+                    aprovado++;
+                }
             }
-            Console.WriteLine($"Aprovados: {aprovados} \n Recuperação: {recuperacao} \n Reprovado {reprovados}");
+
+            Console.WriteLine($"Aprovados: {aprovado}");
+            Console.WriteLine($"Recuperação: {recuperacao}");
+            Console.WriteLine($"Reprovados: {reprovado}");
         }
 
         static void Media()
@@ -46,7 +64,7 @@ namespace HelloGithub
 
             for (int i = 0; i < notas.Length; i++)
             {
-                total = total + numeros[i];
+                total = total + notas[i];
             }
 
             Console.WriteLine($"A média da turma foi de: {total / notas.Length}");
