@@ -87,17 +87,15 @@ MATRIZ: A tabela a seguir mostra a distância de quatro cidades entre si. Por ex
   </tr>
 </table>
 
-## Exercício 8 - Nível Intermediário
-
 MATRIZ: Crie um programa que leia essa matriz e informe ao usuário a distância entre duas cidades por ele fornecidas. O programa deve ficar repetindo até que o usuário informe a mesma cidade como origem e destino.
 
-## Exercício 9 - Nível Intermediário
+## Exercício 8 - Nível Intermediário
 
 MATRIZ Crie um algoritmo que leia duas matrizes A e B, de tamanho 3x3, e calcule A*B. Dica abaixo:
 
 ![image](https://www.somatematica.com.br/emedio/matrizes/Image37.gif)
 
-## Exercício 10 - Nível Avançado (Opcional)
+## Exercício 9 - Nível Avançado (Opcional)
 
 MATRIZ Um cinema possui uma sala com 6 linhas e 8 colunas. Cada posição da matriz representa uma cadeira:
 
@@ -118,9 +116,17 @@ Inicialmente todas as cadeiras devem estar livres. Crie um sistema com menu repe
 4 - Mostrar mapa da sala
 
 5 - Encerrar
+
+---
+
 ### ✔️ Exercícios concluidos:
 
-- [ ] Exercício 1
-- [ ] Exercício 2
-- [ ] Exercício 3
-- [ ] Exercício 4
+- [x] Exercício 1
+- [x] Exercício 2
+- [x] Exercício 3
+- [x] Exercício 4
+- [x] Exercício 5
+- [x] Exercício 6
+- [x] Exercício 7
+- [x] Exercício 8
+- [x] Exercício 9
