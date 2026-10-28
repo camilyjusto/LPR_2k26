@@ -70,8 +70,8 @@ Uma empresa deseja controlar os chamados abertos pelos funcionários. Crie uma s
 
 ### ✔️ Exercícios concluidos:
 
-- [ ] Exercício 1
-- [ ] Exercício 2
-- [ ] Exercício 3
+- [x] Exercício 1
+- [x] Exercício 2
+- [x] Exercício 3
 - [ ] Exercício 4
 - [ ] Exercício 5
