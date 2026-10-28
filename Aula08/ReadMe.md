@@ -6,24 +6,21 @@
 
 ## Exercício 1 - Nível Iniciante (Opcional)
 
-Crie um programa que permita ao usuário cadastrar notas de alunos em uma lista. O programa deve:
-- Solicitar ao usuário 5 notas.
--  Armazenar as notas em uma lista.
--  Exibir:
-> - Todas as notas cadastradas;
-> - A maior nota;
-> - A menor nota;
-> - A média das notas.
+ Defina uma struct chamada Filme contendo os seguintes campos: Titulo, Diretor, AnoLancamento, DuracaoMinutos.
+ Crie um programa que:
+- Solicite os dados de 3 filmes.
+- Armazene-os em um vetor de structs.
+- Exiba todos os filmes cadastrados.
+- Informe qual é o filme mais antigo.
+
 
 ## Exercício 2 - Nível Intermediário
 
-Defina uma struct Produto que contenha os seguintes campos: Nome, Codigo, Preco e Quantidade. Crie um programa que permita ao usuário inserir dados de 3 produtos e, em seguida, exiba 
-o valor total em estoque (considerando o preço e a quantidade de cada produto).
+Defina uma struct Produto que contenha os seguintes campos: Nome, Codigo, Preco e Quantidade. Crie um programa que permita ao usuário inserir dados de 3 produtos e, em seguida, exiba o valor total em estoque (considerando o preço e a quantidade de cada produto).
 
 ## Exercício 3 - Nível Intermediário
 
-Defina uma struct Livro com os seguintes campos: Titulo, Autor, AnoPublicacao, NumeroPaginas e Preco. Crie um programa que permita ao usuário inserir dados de 3 livros e, em seguida, 
-calcule e exiba o preço total dos livros cadastrados e a média de páginas dos livros. 
+Defina uma struct Livro com os seguintes campos: Titulo, Autor, AnoPublicacao, NumeroPaginas e Preco. Crie um programa que permita ao usuário inserir dados de 3 livros e, em seguida, calcule e exiba o preço total dos livros cadastrados e a média de páginas dos livros. 
 
 ## Exercício 4 - Nível Avançado (Retomada)
 
@@ -61,8 +58,7 @@ correspondente.
 >  - Não utilize classes ou listas! Pode (ou será que deve) utilizar vetores. 
 
 ## Exercício 5 - Nível Avançado (Opcional)
-Uma empresa deseja controlar os chamados abertos pelos funcionários. Crie uma struct chamada Chamado contendo: Numero, Solicitante, Setor, Prioridade (1 a 3), Status e 
-Descrição. O programa deve possuir as seguintes funções:
+Uma empresa deseja controlar os chamados abertos pelos funcionários. Crie uma struct chamada Chamado contendo: Numero, Solicitante, Setor, Prioridade (1 a 3), Status e Descrição. O programa deve possuir as seguintes funções:
 
 - cadastrarChamado(): Permite cadastrar até 10 chamados. Ao cadastrar, o status inicial deve ser: Aberto
 - listarChamados(): Exibe todos os chamados cadastrados.
